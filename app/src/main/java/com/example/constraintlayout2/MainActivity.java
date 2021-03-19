@@ -2,6 +2,7 @@ package com.example.constraintlayout2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.provider.ContactsContract;
 import android.view.View;
@@ -41,6 +42,12 @@ public class MainActivity extends AppCompatActivity {
                     Toast t = Toast.makeText(getApplicationContext(),
                             "Sukses" + "", Toast.LENGTH_LONG);
                     t.show();
+                    Bundle b = new Bundle();
+                    b.putString("parameter1",nama.trim());
+                    b.putString("parameter2",password.trim());
+                    Intent i = new Intent(getApplicationContext(), halaman2.class);
+                    i.putExtras(b);
+                    startActivity(i);
                 }
                 else if (nama!=("rio@gmail.com") && password.equals("rio123")) {
                     Toast t = Toast.makeText(getApplicationContext(),
