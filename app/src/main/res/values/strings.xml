@@ -4,9 +4,17 @@
     <string name="tPass">Password</string>
     <string name="tSignin">Sign-In</string>
     <string name="tData">Data Anda</string>
-    <string name="tid">Email: </string>
-    <string name="tPassword">Password: </string>
     <string name="txemail">Ini hasil Email</string>
     <string name="txpassword">Ini hasil Password</string>
     <string name="label2">Login Berhasil</string>
+    <string name="menu1">Menu</string>
+    <string name="menu2">Form Baru</string>
+    <string name="menu3">Edit Data</string>
+    <string name="mDaftar">Pendaftaran</string>
+    <string name="ldaftar">Daftar</string>
+    <string name="enama">Masukkan Nama</string>
+    <string name="eemail">Masukkan Email</string>
+    <string name="epass">Masukkan Password</string>
+    <string name="erepass">Masukkan Password Kembali</string>
+    <string name="ealamat">Masukkan Alamat</string>
 </resources>
