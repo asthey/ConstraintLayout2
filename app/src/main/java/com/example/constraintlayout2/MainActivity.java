@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         if (item.getItemId() == R.id.mnDaftar)
         {
-            Intent i = new Intent(getApplicationContext(), Formbaru.class);
+            Intent i = new Intent(getApplicationContext(), Home_Activity.class);
             startActivity(i);
         }
         return super.onOptionsItemSelected(item);

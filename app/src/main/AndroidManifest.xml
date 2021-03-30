@@ -9,12 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ConstraintLayout2">
-        <activity android:name=".Formbaru" android:label="@string/menu2" android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".ActivityLihatData" android:parentActivityName=".Home_Activity"></activity>
+        <activity android:name=".Home_Activity" android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Formbaru"
+            android:label="@string/menu2"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".halaman2"
             android:label="@string/label2"
             android:parentActivityName=".MainActivity" />
-        <activity android:name=".MainActivity" android:label="@string/menu1" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/menu1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
